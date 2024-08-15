@@ -13,21 +13,6 @@ body {
   background: radial-gradient(#282c34, #282c34);
 }
 
-.header-background {
-  position: absolute;
-  width: 100%;
-  height: 320px;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-svg {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .not-found,
 .error {
   margin-top: 5rem;
@@ -37,7 +22,7 @@ svg {
 .not-found h1,
 .error h1 {
   font-size: 5rem;
-  margin: 0px;
+  margin: 0;
   font-weight: 900;
   color: #262626;
   text-transform: uppercase;
